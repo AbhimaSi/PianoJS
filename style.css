@@ -1,0 +1,46 @@
+#teclas_pretas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    width: 560px;
+    position: relative;
+    top: 158px;
+    left: 20px;
+}
+
+.tecla_preta{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 25px;
+    height: 150px;
+    display: inline;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.space{
+    margin: 8px;
+    width: 25px;
+    height: 150px;
+    display: inline-block;
+    display: hidden;
+}
+
+#teclas_brancas{
+    flex-direction: row;
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600px;
+}
+
+.tecla_branca{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 40px;
+    height: 225px;
+}
+
